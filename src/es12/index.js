@@ -11,10 +11,10 @@ class Message{
     #show(val){
         console.log(val);
     }
-    get #add(val){
-
-    }
-    set 
+//    get #add(val){
+//
+//    }
+//    set 
 }
 const message = new Message();
 message.show("Hola!");
@@ -33,3 +33,11 @@ class AnyClass{
         this.ref = new WeakRef(element)
     };
 }
+
+//Nuevos operadores logicos
+let isTrue = true;
+let isFalse = false;
+
+console.log(isTrue &&= isFalse);
+console.log(isTrue ||= isFalse);
+console.log(isTrue ??= isFalse);
